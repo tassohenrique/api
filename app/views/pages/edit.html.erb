@@ -1,0 +1,8 @@
+<div class="container mt-3">
+  <%= simple_form_for page_path do |f| %>
+    <%= f.input :title, label: 'Title' %>
+    <%= f.input :product_type, label: 'Type' %>
+    <%= f.input :price, label: 'Price'%>
+    <%= f.button :submit, "Send", class: "btn btn-primary btn-lg"%>
+  <% end %>
+</div>
